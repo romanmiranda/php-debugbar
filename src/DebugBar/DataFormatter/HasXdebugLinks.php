@@ -126,6 +126,7 @@ trait HasXdebugLinks
             'espresso' => 'x-espresso://open?filepath=%f&lines=%l',
             'netbeans' => 'netbeans://open/?f=%f:%l',
             'cursor' => 'cursor://file/%f:%l',
+            'trae' => 'trae://file/%f:%l',
         );
 
         if (is_string($editor) && isset($editorLinkTemplates[$editor])) {
